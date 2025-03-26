@@ -1,0 +1,48 @@
+.table {
+  margin: 0 auto;
+  border: 1px solid black;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.tableHead {
+  background-color: rgb(48, 48, 48);
+  color: white;
+}
+
+.tableHeadList {
+}
+
+.tableHeadItem {
+  width: 150px;
+  padding: 3px 10px;
+  font-weight: normal;
+}
+
+.tableBody {
+}
+
+.tableBodyList:not(:last-child) {
+  border-color: black;
+  border-bottom: 1px solid black;
+}
+
+.tableBodyList:nth-child(even) {
+  background-color: rgb(192, 192, 192);
+}
+
+.tableBodyItem {
+  width: 150px;
+  padding: 3px 10px;
+  text-align: center;
+}
+
+.tableBodyItem:first-child {
+  text-align: start;
+  padding-left: 35px;
+  text-transform: capitalize;
+}
+
+.tableBodyItem:not(:last-child) {
+  border-right: 1px solid black;
+}
